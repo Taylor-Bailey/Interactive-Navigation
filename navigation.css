@@ -1,0 +1,24 @@
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+/* On Hover */
+
+nav ul li a:hover {
+    color:white;
+    background-color: cornflowerblue;    
+}
+
+/* On Active */
+
+nav ul li a:active {
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all .3s ease-in;
+}
